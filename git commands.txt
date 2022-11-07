@@ -96,3 +96,25 @@ $ git stash drop <stash_name>
 $ git stash clear
 >> To remove all the stashes.
 
+::::::  Checking out old commits ::::::
+
+$ git checkout <commit-hash>
+>> To view previous commit. 
+
+$ git log --online
+
+:::::: Un - Modifying with Git Restore 
+
+$ git restore <file-name>
+>> The command that helps with undoing operations
+
+$ git restore --staged <file-name>
+>> To remove files from staging area
+
+:::::: Git Reset :::::::
+
+$ git reset <commit-hash>
+>> will rest the repo back to a specific commit
+
+$ git rest --hard <commit>
+>> To remove the contents and undo commits

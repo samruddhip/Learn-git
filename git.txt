@@ -1,0 +1,68 @@
+/* Start git Learning */
+
+What is GIT ?
+>> Git is distributed version control system that is free and open source and is made to efficiently and quickly handle projects of all sizes.
+
+Features of GIT:
+>> Free
+>> Open source
+>> Super fast
+>> Scalable
+
+Lincus Thorvalds dveloped Git in year 2005.
+
+What is Git Repository ?
+>> A Git "Repo" is a workspace which tracks and manages files within a folder.
+>> A fresh git respository must be created each time we want to use Git with a project application, etc.
+
+:::::: GitSetup Commonds ::::::
+
+$ git init 
+>> Create an empty git repository or reinitialize an existing system
+
+$ git config --global user.email <email>
+>> initilize the user email id for all repositories
+
+$ git config --global user.name "Your_name"
+>> initilize the user name for all repositories
+
+$ git status
+>> displaying the status of the working directory and staging area
+
+$ git add
+>> updates the current content of the working tree to the staging area
+
+$ git commit -m "message"
+>> commit the changes in repository
+
+$ git log 
+>> shows history og commit log
+
+:::::: Branching in Git ::::::
+
+$ git branch <branch_name>
+>> create new branch
+
+$ git branch
+>> shows all available branches
+
+$ git swith <branch_name>
+>> switch to available branch
+
+touch <file_name>
+>> reach to that file_name
+
+:::::: Deleting and renaming branch ::::::
+
+$ git branch -d <branch_name>
+>> delete an independent branch
+
+$ git branch -m <new_name_of_branch>
+>> rename existing branch
+
+:::::: Merging branch ::::::
+
+$ git merge <branch_name>
+>> merging branch to master
+
+

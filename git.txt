@@ -88,5 +88,11 @@ $ git stash apply
 $ git stash list
 >> To see all the stashes.
 
+:::::: Dropping or clearing the stashing ::::::
 
+$ git stash drop <stash_name>
+>> To drop/remove a particular stash from stashing list.
+
+$ git stash clear
+>> To remove all the stashes.
 

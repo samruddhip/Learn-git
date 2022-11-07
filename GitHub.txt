@@ -1,0 +1,50 @@
+What is GitHub ?
+>> GitHub serves as aplatform for hosting git repositories. 
+>> You may upload your own git repositories to GitHub, access them from anywhere and share with others.
+
+Features:
+>> Free
+>> Contribute to open source
+>> Super fast
+>> Enormous community
+
+:::::: Git clone ::::::
+
+$ git clone <url_of_the_repository>
+>> Git will copy all the files connected to the repository to your local system after retrieving them.
+>> The whole git history of the cloned project is also accessible to you because git creates a new repository on your computer.
+
+:::::: Git Setup: SSH Configuration ::::::
+
+:::::: Creating repository ::::::
+
+:::::: Git remote ::::::
+
+$ git remote
+>> Before we can push anything uo to Github, we need to tell Git about our remote repository on GitHub. We need to setup a "destination" to pish upto.
+
+$ git remote add <name><url>
+>> A remote is really two things: aurl and a label. To add a new remote, we need to provide both to Git.
+
+:::::: Git Push :::::: (local -> remote)
+
+$ git fetch<remote><branch>
+>> This tells git to push up to branch to our origin remote
+
+:::::: Git Fetch :::::: (remote -> local)
+
+$ git fetch<remote>
+>> This command fetches branches and history from a specific repository. It only updates remote tracking branches git fetch origin would fetch all changes from the origin remote repository.
+
+:::::: Git Pull :::::: (remote->local)
+
+$ git pull <remote><branch>
+>> To pull, we specify the particular remote and branch we want to pull using git pull <remote><branch>.
+>> Just like with git merge, it matters where we run it from is where the changes will be merged into.
+>> Pull = fetch + merge
+
+:::::: GitHub Collaboration ::::::
+
+:::::: README.md file ::::::
+
+:::::: Introducing GitHub Pages ::::::

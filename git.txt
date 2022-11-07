@@ -66,3 +66,27 @@ $ git merge <branch_name>
 >> merging branch to master
 
 
+$ git branch -m <new_name_of_branch>
+>> rename existing branch
+
+:::::: Merging branch ::::::
+
+$ git merge <branch_name>
+>> merging branch to master
+
+:::::: Stashing Git ::::::
+
+$ git Stashing
+>> To stash all uncommited changes
+
+$ git stash pop
+>> To remove the most recently stashed changes and re-apply them to your working copy
+
+$ git stash apply
+>> To re-apply stashed changes to your working copy without  removing from stashed.
+
+$ git stash list
+>> To see all the stashes.
+
+
+

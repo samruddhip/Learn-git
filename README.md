@@ -1,2 +1,2 @@
-# learn-git-andgithub
+# learn-git-and-github
  Introuction

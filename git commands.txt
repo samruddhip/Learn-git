@@ -69,11 +69,6 @@ $ git merge <branch_name>
 $ git branch -m <new_name_of_branch>
 >> rename existing branch
 
-:::::: Merging branch ::::::
-
-$ git merge <branch_name>
->> merging branch to master
-
 :::::: Stashing Git ::::::
 
 $ git Stashing

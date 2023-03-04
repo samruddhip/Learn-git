@@ -1,2 +1,34 @@
 1) I want to initialize the repository to my local git?
 >> git init
+
+2) I want to rename existing repo name?
+>> First switch to repo branch: 
+   git checkout <my-branch-to-rename>
+>> Now rename: 
+   git branch -m my-new-branch-name
+
+3) I want to Push the new local branch to remote? (same as creating new branch on remote with pre content)
+>> git status
+>> git add .
+>> git status
+>> git commit -m "enter your message"
+>> git push -u origin <my-new-branch-name>
+
+4) Delete the old name of the remote branch ?
+>> git push origin --delete <my-branch-to-rename i.e. new branch name>
+
+5) Remove the latest commit in remote ?
+>> git push -f
+
+6) Reset tree to a specific commit ?
+>> git log
+>> git reset <hexa code>
+
+7) Remove the latest commit in remote ?
+>> git push -f
+
+8) I want to pull 
+
+
+9) I want clone repo
+>> git clone
